@@ -14,16 +14,19 @@
 %>
 	
 <body>
-	<FORM method="get" action="./index4">
-	<SELECT NAME="ITEM_NO">
+
+	<FORM method="get" action="./result1">
+	<SELECT name="ID">
 	
 	<% for (String[] ss : result) {%>
-			<OPTION VALUE="<%= ss[1] %>">
+			<OPTION value="<%= ss[1] %>">
 			<%= ss[0] %>
 			</OPTION>
 		
 	<% } %>
 	</SELECT>
+	<INPUT type="submit" value="絞り込む">
+	</FORM>
 
 </body>
 </html>

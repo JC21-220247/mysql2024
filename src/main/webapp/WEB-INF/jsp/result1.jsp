@@ -14,7 +14,7 @@
 %>
 	
 <body>
-	<TABLE border=1>
+	<TABLE >
 	<% for (String[] ss : result) {%>
 		<TR> 		
 			<TD> <%= ss[0] %></TD> 

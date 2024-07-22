@@ -14,8 +14,8 @@
 %>
 	
 <body>
-	<FORM method="get" action="./index4">
-	<SELECT NAME="ITEM_NO">
+	<FORM method="get" action="result1">
+	<SELECT NAME="ID">
 	
 	<% for (String[] ss : result) {%>
 			<OPTION VALUE="<%= ss[1] %>">
@@ -24,6 +24,7 @@
 		
 	<% } %>
 	</SELECT>
+	</FORM>
 
 </body>
 </html>

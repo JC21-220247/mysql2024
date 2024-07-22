@@ -32,8 +32,8 @@ public class Form1Servlet extends HttpServlet {
 			throws ServletException, IOException {
 		response.getWriter().append("Served at: ").append(request.getContextPath());
 		String url = "jdbc:mysql://"+dbServer+"/"+dbName;
-		response.setContentType("text/html;charset=UTF-8");
-		response.getWriter().append("<h2>Connect to : ").append(url).append("</h2>");
+//		response.setContentType("text/html;charset=UTF-8");
+//		response.getWriter().append("<h2>Connect to : ").append(url).append("</h2>");
 		
 		
 		try {
