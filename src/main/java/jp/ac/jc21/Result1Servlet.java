@@ -40,7 +40,7 @@ public class Result1Servlet extends HttpServlet {
 			Class.forName("com.mysql.cj.jdbc.Driver");
 			Connection  conn = DriverManager.getConnection(url, user, pass);
 			
-			String sql ="SELECT item_id,item_name,price FROM Items" + "Where item_id = ?";
+			String sql ="SELECT item_id,item_name,price FROM Items " + " Where item_id = ?";
 			
 			PreparedStatement statement = conn.prepareStatement(sql);
 			
